@@ -1,0 +1,24 @@
+{
+    "name": "WooBoPolis",
+    "description": "DESCRIPCION A DEFINIR",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Tala S.",
+            "email": "yomismo@cristiantala.cl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ctala/cubo-polis-post-library": "dev-master"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "WooBoPolis\\classes\\": "classes/",
+            "WooBoPolis\\helpers\\": "helpers/",
+            "WooBoPolis\\views\\": "views/"
+        }
+    }
+
+}

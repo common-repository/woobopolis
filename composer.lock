@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e035e8af6f7cae61380f01705f90bb86",
+    "content-hash": "e7860a9a552bb0a299ff54bfb0582bf3",
+    "packages": [
+        {
+            "name": "ctala/cubo-polis-post-library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ctala/CuboPolisPostLibrary.git",
+                "reference": "5b100ab1b99f5c5d825acc3028fa213de485bc95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ctala/CuboPolisPostLibrary/zipball/5b100ab1b99f5c5d825acc3028fa213de485bc95",
+                "reference": "5b100ab1b99f5c5d825acc3028fa213de485bc95",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CuboPolis\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cristian Tala S.",
+                    "email": "yomismo@cristiantala.cl"
+                }
+            ],
+            "description": "Para Conectar Tu Aplicacion con Cubopolis",
+            "time": "2016-03-14 11:14:19"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ctala/cubo-polis-post-library": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
